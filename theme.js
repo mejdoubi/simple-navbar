@@ -14,7 +14,6 @@ bodyClass.add(theme);
 
 function toggleTheme() {
   const current = localStorage.getItem('theme');
-  console.log(current);
   const next = themeMap[current];
 
   bodyClass.replace(current, next);
